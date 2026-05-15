@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import PageLoader from './components/PageLoader';
 import ThemeToggle from './components/ThemeToggle';
+import Chatbot from './components/Chatbot';
 
 import Home from './pages/Home';
 import Services from './pages/Services';
@@ -48,6 +49,7 @@ function App() {
               </AnimatePresence>
             </main>
             <Footer />
+            <Chatbot />
           </div>
         )}
       </AnimatePresence>
